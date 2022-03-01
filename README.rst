@@ -1,6 +1,6 @@
-*****
+***********************
 EAGERx Template Package
-*****
+***********************
 
 .. image:: https://img.shields.io/badge/License-Apache_2.0-blue.svg
    :target: https://opensource.org/licenses/Apache-2.0
@@ -25,9 +25,9 @@ EAGERx Template Package
 .. contents:: Table of Contents
     :depth: 2
 
-
-What is EAGERx
-==============
+How to contribute
+#################
+TODO
 
 
 What is EAGERx
