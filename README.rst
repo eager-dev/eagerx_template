@@ -1,4 +1,4 @@
-.. image:: docs/_static/img/banner.png
+.. image:: img/banner.png
 
 **EAGERx Template Package**
 
