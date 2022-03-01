@@ -6,9 +6,9 @@ name: CI
 on: pull_request
 
 jobs:
-  # Skip CI if [ci skip] in the commit message
-  if: "! contains(toJSON(github.event.commits.*.message), '[ci skip]')"
   test:
+    # Skip CI if [ci skip] in the commit message
+    if: "! contains(toJSON(github.event.commits.*.message), '[ci skip]')"
     strategy:
       fail-fast: true
       matrix:
