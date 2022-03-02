@@ -14,19 +14,11 @@ EAGERx Template Package
    :target: https://github.com/eager-dev/eagerx_template/actions/workflows/ci.yml
    :alt: Continuous Integration
 
-.. image:: https://api.codeclimate.com/v1/badges/3146dce3dd4c3537834c/maintainability
-   :target: https://codeclimate.com/github/eager-dev/eagerx_template/maintainability
-   :alt: Maintainability
-
-.. image:: https://api.codeclimate.com/v1/badges/3146dce3dd4c3537834c/test_coverage
-   :target: https://codeclimate.com/github/eager-dev/eagerx_template/test_coverage
-   :alt: Test Coverage
-
 .. contents:: Table of Contents
     :depth: 2
 
 How to contribute
-#################
+=================
 TODO
 
 
