@@ -10,6 +10,18 @@ EAGERx Template Package
    :target: https://github.com/psf/black
    :alt: codestyle
 
+.. image:: https://github.com/eager-dev/eagerx/actions/workflows/ci.yml/badge.svg?branch=master
+  :target: https://github.com/eager-dev/eagerx/actions/workflows/ci.yml
+  :alt: Continuous Integration
+
+.. image:: https://api.codeclimate.com/v1/badges/3146dce3dd4c3537834c/maintainability
+  :target: https://codeclimate.com/github/eager-dev/eagerx/maintainability
+  :alt: Maintainability
+
+.. image:: https://api.codeclimate.com/v1/badges/3146dce3dd4c3537834c/test_coverage
+  :target: https://codeclimate.com/github/eager-dev/eagerx/test_coverage
+  :alt: Test Coverage
+
 .. contents:: Table of Contents
     :depth: 2
 
