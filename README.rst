@@ -10,87 +10,15 @@ EAGERx Template Package
    :target: https://github.com/psf/black
    :alt: codestyle
 
-.. image:: https://github.com/eager-dev/eagerx_template/actions/workflows/ci.yml/badge.svg?branch=master
-   :target: https://github.com/eager-dev/eagerx_template/actions/workflows/ci.yml
-   :alt: Continuous Integration
-
 .. contents:: Table of Contents
     :depth: 2
 
-How to contribute
+What is the EAGERx template package?
 =================
-TODO
-
-
-What is EAGERx
-==============
-EAGERx (Engine Agnostic Gym Environments for Robotics) enables users to easily define new tasks, switch from one sensor to another,
-and switch from simulation to reality with a single line of code by being invariant to the physics engine.
-EAGERx explicitly addresses the differences in learning between simulation and reality,
-with essential features for roboticists such as a safety layer, signal delay simulation, and controller switching for resets.
-A single RL pipeline that works with both the simulated and real robots eliminates the chance for mismatches between the simulation and reality implementation.
-The defined task follows the OpenAI Gym interface, so one can plug in algorithms from established RL libraries
-(e.g., `Stable-baselines3 <https://github.com/DLR-RM/stable-baselines3>`_ ) to solve the task afterward, again minimizing implementation errors.
-
-`Full documentation and tutorials available here <https://eagerx.readthedocs.io/en/master/>`_.
-
-..
-    TODO: ADD code example with gifs?
-    Example
-    =================
-
-Installation
-============
-
-You can do a minimal installation of ``EAGERx`` with:
-
-.. code:: shell
-
-    pip3 install eagerx
-
-.. note::
-    EAGERx depends on a minimal ROS installation. Fortunately, you **can** use eagerx anywhere as you would any python package,
-    so it does **not** impose a ROS package structure on your project.
-    See `here <ROS_>`_ for installation instructions.
-
-
-Dependencies
-============
-Below you find instructions for installing dependencies required for EAGERx.
-
-ROS
----------------------
-
-See the `ROS Installation Options <https://eagerx.readthedocs.io/en/latest/>`_, or do the following.
-By replacing ``<DISTRO>`` with the supported ROS distributions (``noetic``, ``melodic``),
-and ``<PACKAGE>`` with the installation type (``ros-base``, ``desktop``, ``desktop-full``),
-a minimal ros installation can be installed with:
-
-.. code:: shell
-
-    sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
-    sudo apt install curl # if you haven't already installed curl
-    curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -
-    sudo apt update
-    sudo apt install ros-<DISTRO>-<PACKAGE>
-    sudo apt-get install ros-<DISTRO>-cv-bridge
-
-Make sure to source ``/opt/ros/<DISTRO>/setup.bash`` in the environment where you intend to ``eagerx`` in.
-It can be convenient to automatically source this script every time a new shell is launched.
-These commands will do that for you if you:
-
-.. code:: shell
-
-      echo "source /opt/ros/<DISTRO>/setup.bash" >> ~/.bashrc
-      source ~/.bashrc
-
-In case you make use of a virtual environment, move to the directory containing the ``.venv`` and
-add ``source /opt/ros/<DISTRO>/setup.bash`` to the activation script before activating the environment with
-this line:
-
-.. code:: shell
-
-      echo "source /opt/ros/<DISTRO>/setup.bash" >> .venv/bin/activate
+This repository/package serves as a template than be used to develop your own EAGERx packages.
+EAGERx (Engine Agnostic Gym Environments for Robotics) enables users to easily define new tasks, switch from one sensor to another, and switch from simulation to reality with a single line of code by being invariant to the physics engine.
+`The core repository is available here <https://github.com/eager-dev/eagerx>`_.
+`Full documentation and tutorials (including package creation and contributing) are available here <https://eagerx.readthedocs.io/en/master/>`_.
 
 Cite EAGERx
 ===============
