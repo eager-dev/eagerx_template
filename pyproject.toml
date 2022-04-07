@@ -16,7 +16,7 @@ eagerx = "^0.1.13"
 black = "^22.1.0"
 pytest = "^7.0"
 pytest-cov = "^3.0.0"
-flake8 = "^3.0"
+flake8 = "^4.0"
 flake8-bugbear = "^22.3.23"
 
 [build-system]
