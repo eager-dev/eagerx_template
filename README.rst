@@ -16,7 +16,7 @@ EAGERx Template Package
 What is the EAGERx template package?
 =================
 This repository/package serves as a template than be used to develop your own EAGERx packages.
-EAGERx (Engine Agnostic Gym Environments for Robotics) enables users to easily define new tasks, switch from one sensor to another, and switch from simulation to reality with a single line of code by being invariant to the physics engine.
+EAGERx (Engine Agnostic Graph Environments for Robotics) enables users to easily define new tasks, switch from one sensor to another, and switch from simulation to reality with a single line of code by being invariant to the physics engine.
 `The core repository is available here <https://github.com/eager-dev/eagerx>`_.
 `Full documentation and tutorials (including package creation and contributing) are available here <https://eagerx.readthedocs.io/en/master/>`_.
 
@@ -28,7 +28,7 @@ If you are using EAGERx for your scientific publications, please cite:
 
     @article{eagerx,
         author  = {van der Heijden, Bas and Luijkx, Jelle, and Ferranti, Laura and Kober, Jens and Babuska, Robert},
-        title = {EAGERx: Engine Agnostic Gym Environment for Robotics},
+        title = {EAGERx: Engine Agnostic Graph Environments for Robotics},
         year = {2022},
         publisher = {GitHub},
         journal = {GitHub repository},
