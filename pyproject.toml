@@ -9,8 +9,8 @@ repository = "https://github.com/eager-dev/eagerx_template"
 documentation = "https://eagerx.readthedocs.io/en/master/"
 
 [tool.poetry.dependencies]
-python = "^3.6.2"
-eagerx = "^0.1.35"
+python = "^3.7"
+eagerx = "^0.1.38"
 
 [tool.poetry.dev-dependencies]
 black = "^22.1.0"
