@@ -97,5 +97,5 @@ jobs:
         with:
           author_name: ${{ github.actor }}
           author_email: ${{ github.actor }}@users.noreply.github.com
-          message: "ci: Update coverage badge [ci skip]"
+          message: "ci: Update coverage badge"
           add: "coverage.svg"
